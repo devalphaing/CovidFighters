@@ -1,0 +1,24 @@
+Database Name -> blood
+
+Tables:
+-------
+-> giver
+-> medicine
+-> pending
+-> plasma
+
+Giver table colums:
+--------------------
+-> name, address, phone, BloodGroup, Age.
+
+Medicine Table columns:
+-----------------------
+-> name, adress, phone, MedicineName, ExpiryDate, City.
+
+Pending Table columns:
+----------------------
+-> name, address, phone, Purpose.
+
+Plasma Table columns:
+---------------------
+-> name, adress, phone, BloodGroup, Age, NegativeDate.

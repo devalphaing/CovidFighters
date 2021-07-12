@@ -1,0 +1,110 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>DonateController</servlet-name>
+  	<display-name>DonateController</display-name>
+  	<description></description>
+  	<servlet-class>com.blood.web.DonateController</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>DonateController</servlet-name>
+  	<url-pattern>/donate</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>NeedController</servlet-name>
+  	<display-name>NeedController</display-name>
+  	<description></description>
+  	<servlet-class>com.blood.web.NeedController</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>DonateBloodController</servlet-name>
+  	<display-name>DonateBloodController</display-name>
+  	<description></description>
+  	<servlet-class>com.blood.web.DonateBloodController</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>DonatePlasmaController</servlet-name>
+  	<display-name>DonatePlasmaController</display-name>
+  	<description></description>
+  	<servlet-class>com.blood.web.DonatePlasmaController</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>DonateMedicineController</servlet-name>
+  	<display-name>DonateMedicineController</display-name>
+  	<description></description>
+  	<servlet-class>com.blood.web.DonateMedicineController</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>NeedBloodController</servlet-name>
+  	<display-name>NeedBloodController</display-name>
+  	<description></description>
+  	<servlet-class>com.blood.web.NeedBloodController</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>NeedPlasmaController</servlet-name>
+  	<display-name>NeedPlasmaController</display-name>
+  	<description></description>
+  	<servlet-class>com.blood.web.NeedPlasmaController</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>NeedMedicineController</servlet-name>
+  	<display-name>NeedMedicineController</display-name>
+  	<description></description>
+  	<servlet-class>com.blood.web.NeedMedicineController</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>NeedMoneyController</servlet-name>
+  	<display-name>NeedMoneyController</display-name>
+  	<description></description>
+  	<servlet-class>com.blood.web.NeedMoneyController</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>NeedMoneyDao</servlet-name>
+  	<display-name>NeedMoneyDao</display-name>
+  	<description></description>
+  	<servlet-class>com.blood.web.dao.NeedMoneyDao</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>NeedController</servlet-name>
+  	<url-pattern>/need</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>DonateBloodController</servlet-name>
+  	<url-pattern>/donateblood</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>DonatePlasmaController</servlet-name>
+  	<url-pattern>/donateplasma</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>DonateMedicineController</servlet-name>
+  	<url-pattern>/donatemedicine</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>NeedBloodController</servlet-name>
+  	<url-pattern>/needblood</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>NeedPlasmaController</servlet-name>
+  	<url-pattern>/needplasma</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>NeedMedicineController</servlet-name>
+  	<url-pattern>/needmedicine</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>NeedMoneyController</servlet-name>
+  	<url-pattern>/needmoney</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>NeedMoneyDao</servlet-name>
+  	<url-pattern>/needmoneydao</url-pattern>
+  </servlet-mapping>
+</web-app>
